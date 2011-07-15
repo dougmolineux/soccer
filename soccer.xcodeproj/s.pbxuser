@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	1223029B13BD6C62008DAD2A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E02BBB27126CC2F5006E46A2 /* CCActionInterval.m */;
+		name = "CCActionInterval.m: 83";
+		rLen = 0;
+		rLoc = 2262;
+		rType = 0;
+		vrLen = 766;
+		vrLoc = 2243;
+	};
+	1223029C13BD6C62008DAD2A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E02BBB59126CC2F6006E46A2 /* CCNode.m */;
+		name = "CCNode.m: 660";
+		rLen = 42;
+		rLoc = 15547;
+		rType = 0;
+		vrLen = 821;
+		vrLoc = 15127;
+	};
+	12237FCE13CCB6520001AB70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 507022A3107672FA00393637 /* HelloWorldScene.m */;
+		name = "HelloWorldScene.m: 369";
+		rLen = 0;
+		rLoc = 9108;
+		rType = 0;
+		vrLen = 876;
+		vrLoc = 8653;
+	};
+	123201F413BAD52400B597B9 /* soccer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = soccer;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	1232021213BAD55200B597B9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1232021313BAD55200B597B9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1232027B13BAE40300B597B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 507022A2107672FA00393637 /* soccerAppDelegate.m */;
+		name = "soccerAppDelegate.m: 109";
+		rLen = 0;
+		rLoc = 3302;
+		rType = 0;
+		vrLen = 1219;
+		vrLoc = 2521;
+	};
+	1244C42C13CA67C700D3EA00 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1232025613BADBDC00B597B9 /* ball.png */;
+	};
+	1244C42D13CA67C700D3EA00 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 12382DBA13BD83FF0065E457 /* soccer_field.jpg */;
+	};
+	1244C42E13CA67C700D3EA00 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1232025413BADB3A00B597B9 /* player.png */;
+	};
+	1244C42F13CA67C700D3EA00 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1244C42713CA67B400D3EA00 /* oppPlayer.png */;
+	};
+	1244C43413CA681D00D3EA00 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E02BBB6E126CC2F6006E46A2 /* CCScheduler.m */;
+		name = "CCScheduler.m: 141";
+		rLen = 0;
+		rLoc = 3660;
+		rType = 0;
+		vrLen = 606;
+		vrLoc = 3238;
+	};
+	124ADEEB13CDEE4000C1C6D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 507022A3107672FA00393637 /* HelloWorldScene.m */;
+		name = "HelloWorldScene.m: 374";
+		rLen = 0;
+		rLoc = 9278;
+		rType = 0;
+		vrLen = 876;
+		vrLoc = 8653;
+	};
+	12588A2013CBF8C100D9876F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 507023141076758E00393637 /* grossini_dance_atlas.png */;
+	};
+	12588A2113CBF8C100D9876F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC2F102F528A00A389B3 /* HelloWorldScene.h */;
+		name = "HelloWorldScene.h: 25";
+		rLen = 0;
+		rLoc = 447;
+		rType = 0;
+		vrLen = 657;
+		vrLoc = 143;
+	};
+	127F0DC913D0EEB00043DC6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 507022A3107672FA00393637 /* HelloWorldScene.m */;
+		name = "HelloWorldScene.m: 374";
+		rLen = 0;
+		rLoc = 9278;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 8653;
+	};
+	12B57C5413CA9C5E00643168 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E02BBBB9126CC2F6006E46A2 /* CGPointExtension.h */;
+		name = "CGPointExtension.h: 65";
+		rLen = 50;
+		rLoc = 2154;
+		rType = 0;
+		vrLen = 645;
+		vrLoc = 2349;
+	};
+	12B57C5613CA9C5E00643168 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = E02BB51E126CA588006E46A2 /* Icon-Small-50.png */;
+	};
+	12B57C5713CA9C5E00643168 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = E02BB51D126CA588006E46A2 /* Icon-Small.png */;
+	};
+	12B57C5813CA9C5E00643168 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = E02BB51F126CA588006E46A2 /* Icon-72.png */;
+	};
+	12B57C5913CA9C5E00643168 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 50F4144510692EE7002A0D5E /* fps_images.png */;
+	};
+	12B57C5A13CA9C5E00643168 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 50F4144410692EE7002A0D5E /* Default.png */;
+	};
+	12BD278613BEFB2300DFB693 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 12BD278313BEF94100DFB693 /* playerWithPossession.png */;
+	};
+	1D6058900D05DD3D006BFB54 /* soccer */ = {
+		activeExec = 0;
+		executables = (
+			123201F413BAD52400B597B9 /* soccer */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 123201F413BAD52400B597B9 /* soccer */;
+		activeSDKPreference = iphonesimulator4.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* soccer */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* soccer */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 1232021313BAD55200B597B9 /* Code sense */;
+		executables = (
+			123201F413BAD52400B597B9 /* soccer */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					991,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 332459686;
+			PBXWorkspaceStateSaveDate = 332459686;
+		};
+		perUserProjectItems = {
+			1223029B13BD6C62008DAD2A = 1223029B13BD6C62008DAD2A /* PBXTextBookmark */;
+			1223029C13BD6C62008DAD2A = 1223029C13BD6C62008DAD2A /* PBXTextBookmark */;
+			12237FCE13CCB6520001AB70 = 12237FCE13CCB6520001AB70 /* PBXTextBookmark */;
+			1232027B13BAE40300B597B9 = 1232027B13BAE40300B597B9 /* PBXTextBookmark */;
+			1244C42C13CA67C700D3EA00 = 1244C42C13CA67C700D3EA00 /* PBXBookmark */;
+			1244C42D13CA67C700D3EA00 = 1244C42D13CA67C700D3EA00 /* PBXBookmark */;
+			1244C42E13CA67C700D3EA00 = 1244C42E13CA67C700D3EA00 /* PBXBookmark */;
+			1244C42F13CA67C700D3EA00 = 1244C42F13CA67C700D3EA00 /* PBXBookmark */;
+			1244C43413CA681D00D3EA00 = 1244C43413CA681D00D3EA00 /* PBXTextBookmark */;
+			124ADEEB13CDEE4000C1C6D8 = 124ADEEB13CDEE4000C1C6D8 /* PBXTextBookmark */;
+			12588A2013CBF8C100D9876F = 12588A2013CBF8C100D9876F /* PBXBookmark */;
+			12588A2113CBF8C100D9876F = 12588A2113CBF8C100D9876F /* PBXTextBookmark */;
+			127F0DC913D0EEB00043DC6E /* PBXTextBookmark */ = 127F0DC913D0EEB00043DC6E /* PBXTextBookmark */;
+			12B57C5413CA9C5E00643168 = 12B57C5413CA9C5E00643168 /* PBXTextBookmark */;
+			12B57C5613CA9C5E00643168 = 12B57C5613CA9C5E00643168 /* PBXBookmark */;
+			12B57C5713CA9C5E00643168 = 12B57C5713CA9C5E00643168 /* PBXBookmark */;
+			12B57C5813CA9C5E00643168 = 12B57C5813CA9C5E00643168 /* PBXBookmark */;
+			12B57C5913CA9C5E00643168 = 12B57C5913CA9C5E00643168 /* PBXBookmark */;
+			12B57C5A13CA9C5E00643168 = 12B57C5A13CA9C5E00643168 /* PBXBookmark */;
+			12BD278613BEFB2300DFB693 = 12BD278613BEFB2300DFB693 /* PBXBookmark */;
+		};
+		sourceControlManager = 1232021213BAD55200B597B9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	506EDC2F102F528A00A389B3 /* HelloWorldScene.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1169, 1218}}";
+			sepNavSelRange = "{447, 0}";
+			sepNavVisRange = "{143, 657}";
+		};
+	};
+	506EE05D10304ED200A389B3 /* cocos2d libraries */ = {
+		activeExec = 0;
+	};
+	507022A2107672FA00393637 /* soccerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1911}}";
+			sepNavSelRange = "{3302, 0}";
+			sepNavVisRange = "{2521, 1219}";
+		};
+	};
+	507022A3107672FA00393637 /* HelloWorldScene.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1169, 11277}}";
+			sepNavSelRange = "{9278, 0}";
+			sepNavVisRange = "{8653, 864}";
+		};
+	};
+	E02BBB27126CC2F5006E46A2 /* CCActionInterval.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 15431}}";
+			sepNavSelRange = "{2262, 0}";
+			sepNavVisRange = "{2243, 766}";
+		};
+	};
+	E02BBB59126CC2F6006E46A2 /* CCNode.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 11102}}";
+			sepNavSelRange = "{15547, 42}";
+			sepNavVisRange = "{15127, 821}";
+		};
+	};
+	E02BBB6E126CC2F6006E46A2 /* CCScheduler.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1615.86, 12873}}";
+			sepNavSelRange = "{3660, 0}";
+			sepNavVisRange = "{3238, 606}";
+		};
+	};
+	E02BBBB9126CC2F6006E46A2 /* CGPointExtension.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1169, 6636}}";
+			sepNavSelRange = "{2154, 50}";
+			sepNavVisRange = "{2349, 645}";
+		};
+	};
+}

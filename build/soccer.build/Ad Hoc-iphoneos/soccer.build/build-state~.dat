@@ -1,0 +1,1728 @@
+Tsoccer
+v7
+r0
+t331325874.675621
+cCheck dependencies
+cCpResource "build/Ad Hoc-iphoneos/soccer.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Info.plist" Resources/Info.plist
+cCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Default.png" Resources/Default.png
+cCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/fps_images.png" Resources/fps_images.png
+cCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon.png" Resources/Icon.png
+cCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/grossini_dance_atlas.png" Resources/grossini_dance_atlas.png
+cCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon@2x.png" Resources/Icon@2x.png
+cCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon-Small@2x.png" Resources/Icon-Small@2x.png
+cCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon-Small.png" Resources/Icon-Small.png
+cCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon-Small-50.png" Resources/Icon-Small-50.png
+cCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon-72.png" Resources/Icon-72.png
+cCpResource "build/Ad Hoc-iphoneos/soccer.app/iTunesArtwork" Resources/iTunesArtwork
+cCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/player.png" Resources/player.png
+cCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/ball.png" Resources/ball.png
+cCpResource "build/Ad Hoc-iphoneos/soccer.app/soccer_field.jpg" Resources/soccer_field.jpg
+cCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/playerWithPossession.png" Resources/playerWithPossession.png
+cProcessPCH /var/folders/hp/hpeAAv5jEmei2SfT9Ec9TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/soccer_Prefix-dunxeuojdvqocdcfwxbnmijftvmm/soccer_Prefix.pch.gch soccer_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/hp/hpeAAv5jEmei2SfT9Ec9TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/soccer_Prefix-bogttzypqztautghpnneznrmcoxn/soccer_Prefix.pch.gch soccer_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC "build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/main.o" /Users/s/Desktop/soccer/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC "build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/soccerAppDelegate.o" /Users/s/Desktop/soccer/Classes/soccerAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC "build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/HelloWorldScene.o" /Users/s/Desktop/soccer/Classes/HelloWorldScene.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC "build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/RootViewController.o" /Users/s/Desktop/soccer/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC "build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/main.o" /Users/s/Desktop/soccer/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLd "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/soccer" normal armv6
+cCompileC "build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/soccerAppDelegate.o" /Users/s/Desktop/soccer/Classes/soccerAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC "build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/HelloWorldScene.o" /Users/s/Desktop/soccer/Classes/HelloWorldScene.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC "build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/RootViewController.o" /Users/s/Desktop/soccer/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLd "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/soccer" normal armv7
+cCreateUniversalBinary "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/soccer" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app.dSYM" "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/soccer"
+cProcessProductPackaging "/Users/s/Library/MobileDevice/Provisioning Profiles/B976294D-5CA9-49D1-B2FD-59E82E2FC9FD.mobileprovision" "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/embedded.mobileprovision"
+cTouch "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/soccer.xcent"
+cCodeSign "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D7401890000000000000110
+t1299448201
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004D5EBED1000000000022E2B0
+t1298054865
+s2286256
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004D5A25CF00000000003FF380
+t1297753551
+s4191104
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+c000000004D54D02E00000000000022F0
+t1297403950
+s8944
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGImage.h
+c000000004D54D02E0000000000002650
+t1297403950
+s9808
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004D54D1950000000000046A90
+t1297404309
+s289424
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004D54D429000000000000094F
+t1297404969
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004D54D4290000000000000A61
+t1297404969
+s2657
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004D54D4290000000000009369
+t1297404969
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004D54D4290000000000003C4A
+t1297404969
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004D54D43E000000000002E690
+t1297404990
+s190096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D49500000000000000C4
+t1297405077
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D54D608000000000026CB10
+t1297405448
+s2542352
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/Availability.h
+c000000004D4F74C20000000000001B19
+t1297052866
+s6937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/TargetConditionals.h
+c000000004D4F74C200000000000031E9
+t1297052866
+s12777
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/inttypes.h
+c000000004D4F6E900000000000002674
+t1297051280
+s9844
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/math.h
+c000000004D4F6E4300000000000004F1
+t1297051203
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/objc/objc.h
+c000000004D54CADF0000000000000B92
+t1297402591
+s2962
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stddef.h
+c000000004D4F6E900000000000001404
+t1297051280
+s5124
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stdlib.h
+c000000004D4F6E9100000000000030A7
+t1297051281
+s12455
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/string.h
+c000000004D4F6E910000000000001A3A
+t1297051281
+s6714
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/sys/time.h
+c000000004D54CB290000000000001E64
+t1297402665
+s7780
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/libz.dylib
+c000000004D54C6160000000000020FE0
+t1297401366
+s135136
+
+N/Users/s/Desktop/soccer/Classes/GameConfig.h
+c000000004E0A9DA30000000000000217
+t1309318563
+s535
+
+N/Users/s/Desktop/soccer/Classes/HelloWorldScene.h
+c000000004E0F5E3E000000000000029B
+t1309630014
+s667
+i"cocos2d.h"
+i"chipmunk.h"
+
+N/Users/s/Desktop/soccer/Classes/HelloWorldScene.m
+c000000004E0F67C20000000000003162
+t1309632450
+s12642
+i"HelloWorldScene.h"
+
+N/Users/s/Desktop/soccer/Classes/RootViewController.h
+c000000004E0A9DA300000000000000DF
+t1309318563
+s223
+i<UIKit/UIKit.h>
+
+N/Users/s/Desktop/soccer/Classes/RootViewController.m
+c000000004E0A9DA30000000000001133
+t1309318563
+s4403
+i"cocos2d.h"
+i"RootViewController.h"
+i"GameConfig.h"
+
+N/Users/s/Desktop/soccer/Classes/soccerAppDelegate.h
+c000000004E0A9DA30000000000000172
+t1309318563
+s370
+i<UIKit/UIKit.h>
+
+N/Users/s/Desktop/soccer/Classes/soccerAppDelegate.m
+c000000004E0AA18E0000000000001164
+t1309319566
+s4452
+i"cocos2d.h"
+i"soccerAppDelegate.h"
+i"GameConfig.h"
+i"HelloWorldScene.h"
+i"RootViewController.h"
+
+N/Users/s/Desktop/soccer/Resources/Default.png
+c000000004E0A9DA300000000000077AB
+t1309318563
+s30635
+
+N/Users/s/Desktop/soccer/Resources/Icon-72.png
+c000000004E0A9DA30000000000002C96
+t1309318563
+s11414
+
+N/Users/s/Desktop/soccer/Resources/Icon-Small-50.png
+c000000004E0A9DA30000000000001F2B
+t1309318563
+s7979
+
+N/Users/s/Desktop/soccer/Resources/Icon-Small.png
+c000000004E0A9DA3000000000000135C
+t1309318563
+s4956
+
+N/Users/s/Desktop/soccer/Resources/Icon-Small@2x.png
+c000000004E0A9DA300000000000024F9
+t1309318563
+s9465
+
+N/Users/s/Desktop/soccer/Resources/Icon.png
+c000000004E0A9DA3000000000000246F
+t1309318563
+s9327
+
+N/Users/s/Desktop/soccer/Resources/Icon@2x.png
+c000000004E0A9DA30000000000005375
+t1309318563
+s21365
+
+N/Users/s/Desktop/soccer/Resources/ball.png
+c000000004E0AA450000000000000072F
+t1309320272
+s1839
+
+N/Users/s/Desktop/soccer/Resources/fps_images.png
+c000000004E0A9DA3000000000000183B
+t1309318563
+s6203
+
+N/Users/s/Desktop/soccer/Resources/grossini_dance_atlas.png
+c000000004E0A9DA3000000000000204C
+t1309318563
+s8268
+
+N/Users/s/Desktop/soccer/Resources/iTunesArtwork
+c000000004E0A9DA3000000000000F21E
+t1309318563
+s61982
+
+N/Users/s/Desktop/soccer/Resources/player.png
+c000000004E0AA3A0000000000000100E
+t1309320096
+s4110
+
+N/Users/s/Desktop/soccer/Resources/playerWithPossession.png
+c000000004E0EC1B80000000000000FD1
+t1309589944
+s4049
+
+N/Users/s/Desktop/soccer/Resources/soccer_field.jpg
+c000000004E0A457A00000000000125E9
+t1309295994
+s75241
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/libcocos2d libraries.a
+c000000004E0F6A2F0000000000779A58
+t1309633071
+s7838296
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app
+t1309633074
+s782
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app.dSYM
+t1309633074
+s102
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Default.png
+t1309633071
+s31932
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon-72.png
+t1309633072
+s12252
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon-Small-50.png
+t1309633071
+s8600
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon-Small.png
+t1309633071
+s5241
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon-Small@2x.png
+t1309633071
+s10151
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon.png
+t1309633071
+s10022
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon@2x.png
+t1309633071
+s23297
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Info.plist
+t1309633071
+s1092
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/PkgInfo
+t1309633071
+s8
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/ResourceRules.plist
+t1309633071
+s485
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/ball.png
+t1309633072
+s1957
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/embedded.mobileprovision
+t1309633074
+s7225
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/fps_images.png
+t1309633071
+s7188
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/grossini_dance_atlas.png
+t1309633071
+s9156
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/iTunesArtwork
+t1309633072
+s61982
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/player.png
+t1309633072
+s4044
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/playerWithPossession.png
+t1309633072
+s4171
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/soccer
+t1309633074
+s2189716
+
+N/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/soccer_field.jpg
+t1309633072
+s75241
+
+N/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/HelloWorldScene.o
+t1309633073
+s42664
+
+N/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/RootViewController.o
+t1309633073
+s38588
+
+N/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/main.o
+t1309633072
+s3524
+
+N/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/soccer
+t1309633073
+s1144808
+
+N/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/soccer.LinkFileList
+c000000004E0F6A2F00000000000001B6
+t1309633071
+s438
+
+N/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/soccerAppDelegate.o
+t1309633072
+s56148
+
+N/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/HelloWorldScene.o
+t1309633073
+s43120
+
+N/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/RootViewController.o
+t1309633073
+s38456
+
+N/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/main.o
+t1309633073
+s3548
+
+N/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/soccer
+t1309633074
+s1038740
+
+N/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/soccer.LinkFileList
+c000000004E0F6A2F00000000000001B6
+t1309633071
+s438
+
+N/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/soccerAppDelegate.o
+t1309633073
+s56000
+
+N/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/soccer.xcent
+t1309633074
+s418
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/chipmunk.h
+c000000004E0A9DA30000000000001293
+t1309318563
+s4755
+i"chipmunk_types.h"
+i"cpVect.h"
+i"cpBB.h"
+i"cpArray.h"
+i"cpHashSet.h"
+i"cpSpaceHash.h"
+i"cpBody.h"
+i"cpShape.h"
+i"cpPolyShape.h"
+i"cpArbiter.h"
+i"cpCollision.h"
+i"constraints/cpConstraint.h"
+i"cpSpace.h"
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/chipmunk_types.h
+c000000004E0A9DA30000000000000AF4
+t1309318563
+s2804
+i"TargetConditionals.h"
+i<CoreGraphics/CGGeometry.h>
+i<ApplicationServices/ApplicationServices.h>
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/constraints/cpConstraint.h
+c000000004E0A9DA30000000000000DBB
+t1309318563
+s3515
+i"cpPinJoint.h"
+i"cpSlideJoint.h"
+i"cpPivotJoint.h"
+i"cpGrooveJoint.h"
+i"cpDampedSpring.h"
+i"cpDampedRotarySpring.h"
+i"cpRotaryLimitJoint.h"
+i"cpRatchetJoint.h"
+i"cpGearJoint.h"
+i"cpSimpleMotor.h"
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+c000000004E0A9DA300000000000008AE
+t1309318563
+s2222
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+c000000004E0A9DA30000000000000956
+t1309318563
+s2390
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/constraints/cpGearJoint.h
+c000000004E0A9DA300000000000006DB
+t1309318563
+s1755
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+c000000004E0A9DA300000000000007E2
+t1309318563
+s2018
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/constraints/cpPinJoint.h
+c000000004E0A9DA300000000000006E9
+t1309318563
+s1769
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+c000000004E0A9DA300000000000006F2
+t1309318563
+s1778
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+c000000004E0A9DA300000000000006FC
+t1309318563
+s1788
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+c000000004E0A9DA300000000000006BF
+t1309318563
+s1727
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+c000000004E0A9DA30000000000000620
+t1309318563
+s1568
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+c000000004E0A9DA30000000000000774
+t1309318563
+s1908
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/cpArbiter.h
+c000000004E0A9DA300000000000018CC
+t1309318563
+s6348
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/cpArray.h
+c000000004E0A9DA30000000000000760
+t1309318563
+s1888
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/cpBB.h
+c000000004E0A9DA300000000000008D1
+t1309318563
+s2257
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/cpBody.h
+c000000004E0A9DA30000000000001CD7
+t1309318563
+s7383
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/cpCollision.h
+c000000004E0A9DA30000000000000592
+t1309318563
+s1426
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/cpHashSet.h
+c000000004E0A9DA30000000000000DB9
+t1309318563
+s3513
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/cpPolyShape.h
+c000000004E0A9DA30000000000000D90
+t1309318563
+s3472
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/cpShape.h
+c000000004E0A9DA300000000000016F4
+t1309318563
+s5876
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/cpSpace.h
+c000000004E0A9DA30000000000001F56
+t1309318563
+s8022
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/cpSpaceHash.h
+c000000004E0A9DA3000000000000128A
+t1309318563
+s4746
+
+N/Users/s/Desktop/soccer/libs/Chipmunk/include/chipmunk/cpVect.h
+c000000004E0A9DA300000000000016B2
+t1309318563
+s5810
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCAction.h
+c000000004E0A9DA3000000000000167A
+t1309318563
+s5754
+i<sys/time.h>
+i<Foundation/Foundation.h>
+i"ccTypes.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCActionCamera.h
+c000000004E0A9DA300000000000009BC
+t1309318563
+s2492
+i"CCActionInterval.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCActionEase.h
+c000000004E0A9DA30000000000001671
+t1309318563
+s5745
+i"CCActionInterval.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCActionGrid.h
+c000000004E0A9DA3000000000000148B
+t1309318563
+s5259
+i"CCActionInterval.h"
+i"CCActionInstant.h"
+i"CCGrid.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCActionGrid3D.h
+c000000004E0A9DA30000000000001A8A
+t1309318563
+s6794
+i"CCActionGrid.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCActionInstant.h
+c000000004E0A9DA300000000000013AA
+t1309318563
+s5034
+i"CCAction.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCActionInterval.h
+c000000004E0A9DA30000000000003265
+t1309318563
+s12901
+i"CCNode.h"
+i"CCAction.h"
+i"CCProtocols.h"
+i<sys/time.h>
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCActionManager.h
+c000000004E0A9DA30000000000001071
+t1309318563
+s4209
+i"CCAction.h"
+i"Support/ccCArray.h"
+i"Support/uthash.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCActionPageTurn3D.h
+c000000004E0A9DA30000000000000644
+t1309318563
+s1604
+i"CCActionGrid3D.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCActionProgressTimer.h
+c000000004E0A9DA3000000000000088D
+t1309318563
+s2189
+i<Foundation/Foundation.h>
+i"CCProgressTimer.h"
+i"CCActionInterval.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCActionTiledGrid.h
+c000000004E0A9DA30000000000001A15
+t1309318563
+s6677
+i"CCActionGrid.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCActionTween.h
+c000000004E0A9DA30000000000000931
+t1309318563
+s2353
+i<Foundation/Foundation.h>
+i"CCActionInterval.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCAnimation.h
+c000000004E0A9DA3000000000000126D
+t1309318563
+s4717
+i<Foundation/Foundation.h>
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCAnimationCache.h
+c000000004E0A9DA300000000000008DD
+t1309318563
+s2269
+i<Foundation/Foundation.h>
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCAtlasNode.h
+c000000004E0A9DA30000000000000C06
+t1309318563
+s3078
+i"CCTextureAtlas.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCBlockSupport.h
+c000000004E0A9DA3000000000000066F
+t1309318563
+s1647
+i<Foundation/Foundation.h>
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCCamera.h
+c000000004E0A9DA30000000000000C84
+t1309318563
+s3204
+i"CCNode.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCCompatibility.h
+c000000004E0A9DA30000000000003891
+t1309318563
+s14481
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCConfiguration.h
+c000000004E0A9DA30000000000000D36
+t1309318563
+s3382
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCDirector.h
+c000000004E0A9DA300000000000025C4
+t1309318563
+s9668
+i"ccConfig.h"
+i"ccTypes.h"
+i"Platforms/CCGL.h"
+i"CCProtocols.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCDrawingPrimitives.h
+c000000004E0A9DA30000000000000C32
+t1309318563
+s3122
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<CoreGraphics/CGGeometry.h>
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCGrabber.h
+c000000004E0A9DA300000000000005E4
+t1309318563
+s1508
+i"Platforms/CCGL.h"
+i<Foundation/Foundation.h>
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCGrid.h
+c000000004E0A9DA30000000000000E5A
+t1309318563
+s3674
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCCamera.h"
+i"ccTypes.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCLabelAtlas.h
+c000000004E0A9DA30000000000000B24
+t1309318563
+s2852
+i"CCAtlasNode.h"
+i"CCTextureAtlas.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCLabelBMFont.h
+c000000004E0A9DA40000000000001641
+t1309318564
+s5697
+i"CCSpriteBatchNode.h"
+i"Support/uthash.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCLabelTTF.h
+c000000004E0A9DA40000000000000A87
+t1309318564
+s2695
+i"CCTexture2D.h"
+i"CCSprite.h"
+i"Platforms/CCNS.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCLayer.h
+c000000004E0A9DA400000000000020E9
+t1309318564
+s8425
+i<Availability.h>
+i<UIKit/UIKit.h>
+i"Platforms/iOS/CCTouchDelegateProtocol.h"
+i"Platforms/Mac/CCEventDispatcher.h"
+i"CCProtocols.h"
+i"CCNode.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCMenu.h
+c000000004E0A9DA40000000000000B29
+t1309318564
+s2857
+i"CCMenuItem.h"
+i"CCLayer.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCMenuItem.h
+c000000004E0A9DA400000000000033A8
+t1309318564
+s13224
+i"CCBlockSupport.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCMotionStreak.h
+c000000004E0A9DA40000000000000B2A
+t1309318564
+s2858
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCRibbon.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCNode.h
+c000000004E0A9DA40000000000004485
+t1309318564
+s17541
+i<Availability.h>
+i"Platforms/CCGL.h"
+i"CCAction.h"
+i"ccTypes.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i"ccConfig.h"
+i"Support/CCArray.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCParallaxNode.h
+c000000004E0A9DA4000000000000075D
+t1309318564
+s1885
+i"CCNode.h"
+i"Support/ccCArray.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCParticleExamples.h
+c000000004E0A9DA40000000000000AD0
+t1309318564
+s2768
+i<Availability.h>
+i"CCParticleSystemPoint.h"
+i"CCParticleSystemQuad.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCParticleSystem.h
+c000000004E0A9DA400000000000037B8
+t1309318564
+s14264
+i"CCProtocols.h"
+i"CCNode.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCParticleSystemPoint.h
+c000000004E0A9DA40000000000000846
+t1309318564
+s2118
+i<Availability.h>
+i"CCParticleSystem.h"
+i"CCParticleSystemQuad.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCParticleSystemQuad.h
+c000000004E0A9DA400000000000009F8
+t1309318564
+s2552
+i"CCParticleSystem.h"
+i"ccConfig.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCProgressTimer.h
+c000000004E0A9DA40000000000000B48
+t1309318564
+s2888
+i<Foundation/Foundation.h>
+i"CCSprite.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCProtocols.h
+c000000004E0A9DA40000000000000F9A
+t1309318564
+s3994
+i"ccTypes.h"
+i"CCTexture2D.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCRenderTexture.h
+c000000004E0A9DA40000000000000F2A
+t1309318564
+s3882
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCSprite.h"
+i"Support/OpenGL_Internal.h"
+i<Availability.h>
+i<UIKit/UIKit.h>
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCRibbon.h
+c000000004E0A9DA40000000000000FCD
+t1309318564
+s4045
+i"CCNode.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i"Platforms/CCGL.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCScene.h
+c000000004E0A9DA40000000000000676
+t1309318564
+s1654
+i"CCNode.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCScheduler.h
+c000000004E0A9DA400000000000019D7
+t1309318564
+s6615
+i"Support/uthash.h"
+i"ccTypes.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCSprite.h
+c000000004E0A9DA4000000000000345C
+t1309318564
+s13404
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCSpriteBatchNode.h
+c000000004E0A9DA400000000000018F8
+t1309318564
+s6392
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+i"ccMacros.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCSpriteFrame.h
+c000000004E0A9DA40000000000000D5A
+t1309318564
+s3418
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCSpriteFrameCache.h
+c000000004E0A9DA40000000000001394
+t1309318564
+s5012
+i<Foundation/Foundation.h>
+i"CCSpriteFrame.h"
+i"CCTexture2D.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCSpriteSheet.h
+c000000004E0A9DA400000000000009FE
+t1309318564
+s2558
+i"CCSpriteBatchNode.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCTMXLayer.h
+c000000004E0A9DA4000000000000182A
+t1309318564
+s6186
+i"CCAtlasNode.h"
+i"CCSpriteBatchNode.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCTMXObjectGroup.h
+c000000004E0A9DA400000000000008D5
+t1309318564
+s2261
+i"CCSpriteSheet.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCTMXTiledMap.h
+c000000004E0A9DA400000000000014D4
+t1309318564
+s5332
+i"CCSpriteSheet.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCTMXXMLParser.h
+c000000004E0A9DA400000000000016B9
+t1309318564
+s5817
+i<Availability.h>
+i<Foundation/Foundation.h>
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCTexture2D.h
+c000000004E0A9DA40000000000002C9A
+t1309318564
+s11418
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+i"Platforms/CCNS.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCTextureAtlas.h
+c000000004E0A9DA4000000000000145B
+t1309318564
+s5211
+i"CCTexture2D.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCTextureCache.h
+c000000004E0A9DA400000000000014C2
+t1309318564
+s5314
+i<Availability.h>
+i<CoreGraphics/CGImage.h>
+i<Foundation/Foundation.h>
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCTexturePVR.h
+c000000004E0A9DA40000000000000FB9
+t1309318564
+s4025
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+i"CCTextureCache.h"
+i"CCTexture2D.h"
+i"ccCArray.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCTileMapAtlas.h
+c000000004E0A9DA40000000000000B86
+t1309318564
+s2950
+i"CCTextureAtlas.h"
+i"CCAtlasNode.h"
+i"Support/TGAlib.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCTransition.h
+c000000004E0A9DA40000000000002134
+t1309318564
+s8500
+i"CCScene.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCTransitionPageTurn.h
+c000000004E0A9DA40000000000000917
+t1309318564
+s2327
+i"CCTransition.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/CCTransitionRadial.h
+c000000004E0A9DA40000000000000630
+t1309318564
+s1584
+i"CCTransition.h"
+i"CCProgressTimer.h"
+i"CCActionProgressTimer.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Platforms/CCGL.h
+c000000004E0A9DA40000000000000BF8
+t1309318564
+s3064
+i<Availability.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/EAGL.h>
+i"iOS/glu.h"
+i"iOS/EAGLView.h"
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i<Cocoa/Cocoa.h>
+i"Mac/MacGLView.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Platforms/CCNS.h
+c000000004E0A9DA40000000000000965
+t1309318564
+s2405
+i<Availability.h>
+i<Foundation/Foundation.h>
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Platforms/Mac/CCDirectorMac.h
+c000000004E0A9DA40000000000000C84
+t1309318564
+s3204
+i<Availability.h>
+i<QuartzCore/CVDisplayLink.h>
+i"../../CCDirector.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Platforms/Mac/CCEventDispatcher.h
+c000000004E0A9DA40000000000001AA7
+t1309318564
+s6823
+i<Availability.h>
+i<Cocoa/Cocoa.h>
+i"MacGLView.h"
+i"../../Support/uthash.h"
+i"../../Support/utlist.h"
+i"../../ccConfig.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Platforms/Mac/MacGLView.h
+c000000004E0A9DA40000000000000B8C
+t1309318564
+s2956
+i<Availability.h>
+i<Cocoa/Cocoa.h>
+i"../../ccConfig.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Platforms/iOS/CCDirectorIOS.h
+c000000004E0A9DA40000000000002B53
+t1309318564
+s11091
+i<Availability.h>
+i"../../CCDirector.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Platforms/iOS/CCTouchDelegateProtocol.h
+c000000004E0A9DA40000000000000BC3
+t1309318564
+s3011
+i<Availability.h>
+i<UIKit/UIKit.h>
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Platforms/iOS/CCTouchDispatcher.h
+c000000004E0A9DA400000000000010CA
+t1309318564
+s4298
+i<Availability.h>
+i"CCTouchDelegateProtocol.h"
+i"EAGLView.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Platforms/iOS/CCTouchHandler.h
+c000000004E0A9DA40000000000000D99
+t1309318564
+s3481
+i<Availability.h>
+i"CCTouchDelegateProtocol.h"
+i"CCTouchDispatcher.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Platforms/iOS/EAGLView.h
+c000000004E0A9DA40000000000001B69
+t1309318564
+s7017
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"ESRenderer.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Platforms/iOS/ESRenderer.h
+c000000004E0A9DA4000000000000083A
+t1309318564
+s2106
+i<Availability.h>
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Platforms/iOS/glu.h
+c000000004E0A9DA4000000000000030D
+t1309318564
+s781
+i<Availability.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Support/CCArray.h
+c000000004E0A9DA40000000000000BED
+t1309318564
+s3053
+i"ccCArray.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Support/CCFileUtils.h
+c000000004E0A9DA400000000000007E8
+t1309318564
+s2024
+i<Foundation/Foundation.h>
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Support/CCProfiling.h
+c000000004E0A9DA400000000000006E9
+t1309318564
+s1769
+i<Foundation/Foundation.h>
+i<sys/time.h>
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Support/CGPointExtension.h
+c000000004E0A9DA40000000000001EAB
+t1309318564
+s7851
+i<Availability.h>
+i<CoreGraphics/CGGeometry.h>
+i<Foundation/Foundation.h>
+i<math.h>
+i<objc/objc.h>
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Support/OpenGL_Internal.h
+c000000004E0A9DA400000000000011A7
+t1309318564
+s4519
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Support/TGAlib.h
+c000000004E0A9DA40000000000000444
+t1309318564
+s1092
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Support/ccCArray.h
+c000000004E0A9DA400000000000030F3
+t1309318564
+s12531
+i<Foundation/Foundation.h>
+i<stdlib.h>
+i<string.h>
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Support/ccUtils.h
+c000000004E0A9DA40000000000000204
+t1309318564
+s516
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Support/uthash.h
+c000000004E0A9DA4000000000000FB13
+t1309318564
+s64275
+i<string.h>
+i<stddef.h>
+i<inttypes.h>
+
+N/Users/s/Desktop/soccer/libs/cocos2d/Support/utlist.h
+c000000004E0A9DA40000000000009091
+t1309318564
+s37009
+
+N/Users/s/Desktop/soccer/libs/cocos2d/ccConfig.h
+c000000004E0A9DA40000000000002896
+t1309318564
+s10390
+i<Availability.h>
+
+N/Users/s/Desktop/soccer/libs/cocos2d/ccMacros.h
+c000000004E0A9DA40000000000001DFE
+t1309318564
+s7678
+i<math.h>
+i"ccConfig.h"
+i<Foundation/Foundation.h>
+i<Availability.h>
+i"Platforms/iOS/CCDirectorIOS.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/ccTypes.h
+c000000004E0A9DA400000000000016D2
+t1309318564
+s5842
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<CoreGraphics/CGGeometry.h>
+i"Platforms/CCGL.h"
+
+N/Users/s/Desktop/soccer/libs/cocos2d/cocos2d.h
+c000000004E0A9DA400000000000010FF
+t1309318564
+s4351
+i<Availability.h>
+i"ccConfig.h"
+i"CCActionManager.h"
+i"CCAction.h"
+i"CCActionInstant.h"
+i"CCActionInterval.h"
+i"CCActionEase.h"
+i"CCActionCamera.h"
+i"CCActionTween.h"
+i"CCActionEase.h"
+i"CCActionTiledGrid.h"
+i"CCActionGrid3D.h"
+i"CCActionGrid.h"
+i"CCActionProgressTimer.h"
+i"CCActionPageTurn3D.h"
+i"CCAnimation.h"
+i"CCAnimationCache.h"
+i"CCSprite.h"
+i"CCSpriteFrame.h"
+i"CCSpriteSheet.h"
+i"CCSpriteBatchNode.h"
+i"CCSpriteFrameCache.h"
+i"CCLabelTTF.h"
+i"CCLabelBMFont.h"
+i"CCLabelAtlas.h"
+i"CCParticleSystem.h"
+i"CCParticleSystemPoint.h"
+i"CCParticleSystemQuad.h"
+i"CCParticleExamples.h"
+i"CCTexture2D.h"
+i"CCTexturePVR.h"
+i"CCTextureCache.h"
+i"CCTextureAtlas.h"
+i"CCTransition.h"
+i"CCTransitionPageTurn.h"
+i"CCTransitionRadial.h"
+i"CCTMXTiledMap.h"
+i"CCTMXLayer.h"
+i"CCTMXObjectGroup.h"
+i"CCTMXXMLParser.h"
+i"CCTileMapAtlas.h"
+i"CCLayer.h"
+i"CCMenu.h"
+i"CCMenuItem.h"
+i"CCDrawingPrimitives.h"
+i"CCScene.h"
+i"CCScheduler.h"
+i"CCBlockSupport.h"
+i"CCCamera.h"
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCDirector.h"
+i"CCAtlasNode.h"
+i"CCGrabber.h"
+i"CCGrid.h"
+i"CCParallaxNode.h"
+i"CCRenderTexture.h"
+i"CCMotionStreak.h"
+i"CCConfiguration.h"
+i"ccTypes.h"
+i"ccMacros.h"
+i"Platforms/CCGL.h"
+i"Platforms/CCNS.h"
+i"Platforms/iOS/CCTouchDispatcher.h"
+i"Platforms/iOS/CCTouchDelegateProtocol.h"
+i"Platforms/iOS/CCTouchHandler.h"
+i"Platforms/iOS/EAGLView.h"
+i"Platforms/iOS/CCDirectorIOS.h"
+i"Platforms/Mac/MacGLView.h"
+i"Platforms/Mac/CCDirectorMac.h"
+i"Support/OpenGL_Internal.h"
+i"Support/CCFileUtils.h"
+i"Support/CGPointExtension.h"
+i"Support/ccCArray.h"
+i"Support/CCArray.h"
+i"Support/ccUtils.h"
+i"Support/CCProfiling.h"
+i"CCCompatibility.h"
+
+N/Users/s/Desktop/soccer/main.m
+c000000004E0A9DA40000000000000156
+t1309318564
+s342
+i<UIKit/UIKit.h>
+
+N/Users/s/Desktop/soccer/soccer_Prefix.pch
+c000000004E0A9DA300000000000000AF
+t1309318563
+s175
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/s/Library/MobileDevice/Provisioning Profiles/B976294D-5CA9-49D1-B2FD-59E82E2FC9FD.mobileprovision
+c000000004E0A716C0000000000001C39
+t1309307244
+s7225
+
+N/var/folders/hp/hpeAAv5jEmei2SfT9Ec9TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/soccer_Prefix-bogttzypqztautghpnneznrmcoxn/soccer_Prefix.pch.gch
+t1309633072
+s8214428
+
+N/var/folders/hp/hpeAAv5jEmei2SfT9Ec9TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/soccer_Prefix-dunxeuojdvqocdcfwxbnmijftvmm/soccer_Prefix.pch.gch
+t1309633072
+s7722908
+
+NResources/Info.plist
+c000000004E0A9DA30000000000000515
+t1309318563
+s1301
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies331325871#331325871#0(0"0(0#1#0"8641494208#0"0#
+
+CCodeSign "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app"
+s331325874.407862
+e331325874.675494
+r1
+xCodeSign
+x/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app
+lSLF07#2@43"CodeSign "build/Ad Hoc-iphoneos/soccer.app"331325874#331325874#0(0"0(0#0#56"/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app8599152896#589"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: wire wire (AVJAT7DUU9)" "--resource-rules=/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/ResourceRules.plist" --entitlements "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/soccer.xcent" "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app"0#
+
+CCompileC "build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/HelloWorldScene.o" /Users/s/Desktop/soccer/Classes/HelloWorldScene.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s331325872.775487
+e331325873.144670
+r1
+xCompileC
+xbuild/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/HelloWorldScene.o
+x/Users/s/Desktop/soccer/Classes/HelloWorldScene.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m: In function '-[HelloWorld ccTouchesEnded:withEvent:]':
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:275: warning: 'HelloWorld' may not respond to '-moveBall:'
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:275: warning: (Messages without a matching method signature
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:275: warning: will be assumed to return 'id' and accept
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:275: warning: '...' as arguments.)
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m: In function '-[HelloWorld update:]':
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:340: warning: 'NSArray' may not respond to '-addObject:'
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m: At top level:
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:474: warning: incomplete implementation of class 'HelloWorld'
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:474: warning: method definition for '-addPlayer' not found
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:474: warning: method definition for '-addNewSpriteX:y:' not found
+lSLF07#2@57"Compile /Users/s/Desktop/soccer/Classes/HelloWorldScene.m331325872#331325873#0(1113"/Users/s/Desktop/soccer/Classes/HelloWorldScene.m: In function '-[HelloWorld ccTouchesEnded:withEvent:]':/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:275: warning: 'HelloWorld' may not respond to '-moveBall:'/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:275: warning: (Messages without a matching method signature/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:275: warning: will be assumed to return 'id' and accept/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:275: warning: '...' as arguments.)/Users/s/Desktop/soccer/Classes/HelloWorldScene.m: In function '-[HelloWorld update:]':/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:340: warning: 'NSArray' may not respond to '-addObject:'/Users/s/Desktop/soccer/Classes/HelloWorldScene.m: At top level:/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:474: warning: incomplete implementation of class 'HelloWorld'/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:474: warning: method definition for '-addPlayer' not found/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:474: warning: method definition for '-addNewSpriteX:y:' not found7(22@44"'HelloWorld' may not respond to '-moveBall:'331325872#106#109#0(6@49"/Users/s/Desktop/soccer/Classes/HelloWorldScene.m331325250#275#0#275#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)331325872#215#110#0(6@49"/Users/s/Desktop/soccer/Classes/HelloWorldScene.m331325250#275#0#275#0#0"0(22@42"'NSArray' may not respond to '-addObject:'331325872#604#107#0(6@49"/Users/s/Desktop/soccer/Classes/HelloWorldScene.m331325250#340#0#340#0#26"'*' may not respond to '*'0(23@13"At top level:331325872#711#65#0(6@49"/Users/s/Desktop/soccer/Classes/HelloWorldScene.m331325250#0#0#0#0#0"0(22@47"Incomplete implementation of class 'HelloWorld'331325872#776#112#0(6@49"/Users/s/Desktop/soccer/Classes/HelloWorldScene.m331325250#474#0#474#0#38"incomplete implementation of class '*'0(22@44"Method definition for '-addPlayer' not found331325872#888#109#0(6@49"/Users/s/Desktop/soccer/Classes/HelloWorldScene.m331325250#474#0#474#0#35"method definition for '*' not found0(22@51"Method definition for '-addNewSpriteX:y:' not found331325872#997#116#0(6@49"/Users/s/Desktop/soccer/Classes/HelloWorldScene.m331325250#474#0#474#0#35"method definition for '*' not found0(0#0#49"/Users/s/Desktop/soccer/Classes/HelloWorldScene.m8624451808#1286"    cd /Users/s/Desktop/soccer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/soccer.hmap" -Wall "-F/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos" "-I/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/include" -Ilibs "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/DerivedSources/armv6" "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/DerivedSources" -include /var/folders/hp/hpeAAv5jEmei2SfT9Ec9TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/soccer_Prefix-dunxeuojdvqocdcfwxbnmijftvmm/soccer_Prefix.pch -c /Users/s/Desktop/soccer/Classes/HelloWorldScene.m -o "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/HelloWorldScene.o"0#
+
+CCompileC "build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/RootViewController.o" /Users/s/Desktop/soccer/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s331325872.952619
+e331325873.114196
+r1
+xCompileC
+xbuild/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/RootViewController.o
+x/Users/s/Desktop/soccer/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@60"Compile /Users/s/Desktop/soccer/Classes/RootViewController.m331325872#331325873#0(0"0(0#0#52"/Users/s/Desktop/soccer/Classes/RootViewController.m8621707520#1292"    cd /Users/s/Desktop/soccer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/soccer.hmap" -Wall "-F/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos" "-I/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/include" -Ilibs "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/DerivedSources/armv6" "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/DerivedSources" -include /var/folders/hp/hpeAAv5jEmei2SfT9Ec9TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/soccer_Prefix-dunxeuojdvqocdcfwxbnmijftvmm/soccer_Prefix.pch -c /Users/s/Desktop/soccer/Classes/RootViewController.m -o "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/RootViewController.o"0#
+
+CCompileC "build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/main.o" /Users/s/Desktop/soccer/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s331325872.700854
+e331325872.775380
+r1
+xCompileC
+xbuild/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/main.o
+x/Users/s/Desktop/soccer/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@38"Compile /Users/s/Desktop/soccer/main.m331325872#331325872#0(0"0(0#0#30"/Users/s/Desktop/soccer/main.m8640538048#1256"    cd /Users/s/Desktop/soccer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/soccer.hmap" -Wall "-F/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos" "-I/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/include" -Ilibs "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/DerivedSources/armv6" "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/DerivedSources" -include /var/folders/hp/hpeAAv5jEmei2SfT9Ec9TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/soccer_Prefix-dunxeuojdvqocdcfwxbnmijftvmm/soccer_Prefix.pch -c /Users/s/Desktop/soccer/main.m -o "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/main.o"0#
+
+CCompileC "build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/soccerAppDelegate.o" /Users/s/Desktop/soccer/Classes/soccerAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s331325872.701938
+e331325872.952525
+r1
+xCompileC
+xbuild/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/soccerAppDelegate.o
+x/Users/s/Desktop/soccer/Classes/soccerAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@59"Compile /Users/s/Desktop/soccer/Classes/soccerAppDelegate.m331325872#331325872#0(0"0(0#0#51"/Users/s/Desktop/soccer/Classes/soccerAppDelegate.m8634612096#1290"    cd /Users/s/Desktop/soccer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/soccer.hmap" -Wall "-F/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos" "-I/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/include" -Ilibs "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/DerivedSources/armv6" "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/DerivedSources" -include /var/folders/hp/hpeAAv5jEmei2SfT9Ec9TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/soccer_Prefix-dunxeuojdvqocdcfwxbnmijftvmm/soccer_Prefix.pch -c /Users/s/Desktop/soccer/Classes/soccerAppDelegate.m -o "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/soccerAppDelegate.o"0#
+
+CCompileC "build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/HelloWorldScene.o" /Users/s/Desktop/soccer/Classes/HelloWorldScene.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s331325873.533966
+e331325873.858891
+r1
+xCompileC
+xbuild/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/HelloWorldScene.o
+x/Users/s/Desktop/soccer/Classes/HelloWorldScene.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m: In function '-[HelloWorld ccTouchesEnded:withEvent:]':
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:275: warning: 'HelloWorld' may not respond to '-moveBall:'
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:275: warning: (Messages without a matching method signature
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:275: warning: will be assumed to return 'id' and accept
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:275: warning: '...' as arguments.)
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m: In function '-[HelloWorld update:]':
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:340: warning: 'NSArray' may not respond to '-addObject:'
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m: At top level:
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:474: warning: incomplete implementation of class 'HelloWorld'
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:474: warning: method definition for '-addPlayer' not found
+o/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:474: warning: method definition for '-addNewSpriteX:y:' not found
+lSLF07#2@57"Compile /Users/s/Desktop/soccer/Classes/HelloWorldScene.m331325873#331325873#0(1113"/Users/s/Desktop/soccer/Classes/HelloWorldScene.m: In function '-[HelloWorld ccTouchesEnded:withEvent:]':/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:275: warning: 'HelloWorld' may not respond to '-moveBall:'/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:275: warning: (Messages without a matching method signature/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:275: warning: will be assumed to return 'id' and accept/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:275: warning: '...' as arguments.)/Users/s/Desktop/soccer/Classes/HelloWorldScene.m: In function '-[HelloWorld update:]':/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:340: warning: 'NSArray' may not respond to '-addObject:'/Users/s/Desktop/soccer/Classes/HelloWorldScene.m: At top level:/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:474: warning: incomplete implementation of class 'HelloWorld'/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:474: warning: method definition for '-addPlayer' not found/Users/s/Desktop/soccer/Classes/HelloWorldScene.m:474: warning: method definition for '-addNewSpriteX:y:' not found7(22@44"'HelloWorld' may not respond to '-moveBall:'331325873#106#109#0(6@49"/Users/s/Desktop/soccer/Classes/HelloWorldScene.m331325250#275#0#275#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)331325873#215#110#0(6@49"/Users/s/Desktop/soccer/Classes/HelloWorldScene.m331325250#275#0#275#0#0"0(22@42"'NSArray' may not respond to '-addObject:'331325873#604#107#0(6@49"/Users/s/Desktop/soccer/Classes/HelloWorldScene.m331325250#340#0#340#0#26"'*' may not respond to '*'0(23@13"At top level:331325873#711#65#0(6@49"/Users/s/Desktop/soccer/Classes/HelloWorldScene.m331325250#0#0#0#0#0"0(22@47"Incomplete implementation of class 'HelloWorld'331325873#776#112#0(6@49"/Users/s/Desktop/soccer/Classes/HelloWorldScene.m331325250#474#0#474#0#38"incomplete implementation of class '*'0(22@44"Method definition for '-addPlayer' not found331325873#888#109#0(6@49"/Users/s/Desktop/soccer/Classes/HelloWorldScene.m331325250#474#0#474#0#35"method definition for '*' not found0(22@51"Method definition for '-addNewSpriteX:y:' not found331325873#997#116#0(6@49"/Users/s/Desktop/soccer/Classes/HelloWorldScene.m331325250#474#0#474#0#35"method definition for '*' not found0(0#0#49"/Users/s/Desktop/soccer/Classes/HelloWorldScene.m8634833696#1283"    cd /Users/s/Desktop/soccer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/soccer.hmap" -Wall "-F/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos" "-I/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/include" -Ilibs "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/DerivedSources/armv7" "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/DerivedSources" -include /var/folders/hp/hpeAAv5jEmei2SfT9Ec9TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/soccer_Prefix-bogttzypqztautghpnneznrmcoxn/soccer_Prefix.pch -c /Users/s/Desktop/soccer/Classes/HelloWorldScene.m -o "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/HelloWorldScene.o"0#
+
+CCompileC "build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/RootViewController.o" /Users/s/Desktop/soccer/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s331325873.555859
+e331325873.722771
+r1
+xCompileC
+xbuild/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/RootViewController.o
+x/Users/s/Desktop/soccer/Classes/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@60"Compile /Users/s/Desktop/soccer/Classes/RootViewController.m331325873#331325873#0(0"0(0#0#52"/Users/s/Desktop/soccer/Classes/RootViewController.m8641267008#1289"    cd /Users/s/Desktop/soccer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/soccer.hmap" -Wall "-F/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos" "-I/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/include" -Ilibs "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/DerivedSources/armv7" "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/DerivedSources" -include /var/folders/hp/hpeAAv5jEmei2SfT9Ec9TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/soccer_Prefix-bogttzypqztautghpnneznrmcoxn/soccer_Prefix.pch -c /Users/s/Desktop/soccer/Classes/RootViewController.m -o "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/RootViewController.o"0#
+
+CCompileC "build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/main.o" /Users/s/Desktop/soccer/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s331325873.114381
+e331325873.184014
+r1
+xCompileC
+xbuild/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/main.o
+x/Users/s/Desktop/soccer/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@38"Compile /Users/s/Desktop/soccer/main.m331325873#331325873#0(0"0(0#0#30"/Users/s/Desktop/soccer/main.m8635401984#1253"    cd /Users/s/Desktop/soccer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/soccer.hmap" -Wall "-F/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos" "-I/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/include" -Ilibs "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/DerivedSources/armv7" "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/DerivedSources" -include /var/folders/hp/hpeAAv5jEmei2SfT9Ec9TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/soccer_Prefix-bogttzypqztautghpnneznrmcoxn/soccer_Prefix.pch -c /Users/s/Desktop/soccer/main.m -o "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/main.o"0#
+
+CCompileC "build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/soccerAppDelegate.o" /Users/s/Desktop/soccer/Classes/soccerAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s331325873.184116
+e331325873.533852
+r1
+xCompileC
+xbuild/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/soccerAppDelegate.o
+x/Users/s/Desktop/soccer/Classes/soccerAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@59"Compile /Users/s/Desktop/soccer/Classes/soccerAppDelegate.m331325873#331325873#0(0"0(0#0#51"/Users/s/Desktop/soccer/Classes/soccerAppDelegate.m8624038912#1287"    cd /Users/s/Desktop/soccer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/soccer.hmap" -Wall "-F/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos" "-I/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/include" -Ilibs "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/DerivedSources/armv7" "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/DerivedSources" -include /var/folders/hp/hpeAAv5jEmei2SfT9Ec9TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/soccer_Prefix-bogttzypqztautghpnneznrmcoxn/soccer_Prefix.pch -c /Users/s/Desktop/soccer/Classes/soccerAppDelegate.m -o "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/soccerAppDelegate.o"0#
+
+CCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Default.png" Resources/Default.png
+s331325871.574279
+e331325871.948200
+r1
+xCopyPNGFile
+x/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Default.png
+xResources/Default.png
+lSLF07#2@80"CopyPNGFile "build/Ad Hoc-iphoneos/soccer.app/Default.png" Resources/Default.png331325871#331325871#0(0"0(0#0#45"/Users/s/Desktop/soccer/Resources/Default.png8617789760#429"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/s/Desktop/soccer/Resources/Default.png "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Default.png"0#
+
+CCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon-72.png" Resources/Icon-72.png
+s331325871.948278
+e331325872.007398
+r1
+xCopyPNGFile
+x/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon-72.png
+xResources/Icon-72.png
+lSLF07#2@80"CopyPNGFile "build/Ad Hoc-iphoneos/soccer.app/Icon-72.png" Resources/Icon-72.png331325871#331325872#0(0"0(0#0#45"/Users/s/Desktop/soccer/Resources/Icon-72.png8605818656#429"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/s/Desktop/soccer/Resources/Icon-72.png "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon-72.png"0#
+
+CCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon-Small-50.png" Resources/Icon-Small-50.png
+s331325871.946794
+e331325871.979246
+r1
+xCopyPNGFile
+x/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon-Small-50.png
+xResources/Icon-Small-50.png
+lSLF07#2@92"CopyPNGFile "build/Ad Hoc-iphoneos/soccer.app/Icon-Small-50.png" Resources/Icon-Small-50.png331325871#331325871#0(0"0(0#0#51"/Users/s/Desktop/soccer/Resources/Icon-Small-50.png8617993888#441"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/s/Desktop/soccer/Resources/Icon-Small-50.png "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon-Small-50.png"0#
+
+CCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon-Small.png" Resources/Icon-Small.png
+s331325871.923595
+e331325871.946696
+r1
+xCopyPNGFile
+x/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon-Small.png
+xResources/Icon-Small.png
+lSLF07#2@86"CopyPNGFile "build/Ad Hoc-iphoneos/soccer.app/Icon-Small.png" Resources/Icon-Small.png331325871#331325871#0(0"0(0#0#48"/Users/s/Desktop/soccer/Resources/Icon-Small.png8621979424#435"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/s/Desktop/soccer/Resources/Icon-Small.png "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon-Small.png"0#
+
+CCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon-Small@2x.png" Resources/Icon-Small@2x.png
+s331325871.897257
+e331325871.923499
+r1
+xCopyPNGFile
+x/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon-Small@2x.png
+xResources/Icon-Small@2x.png
+lSLF07#2@92"CopyPNGFile "build/Ad Hoc-iphoneos/soccer.app/Icon-Small@2x.png" Resources/Icon-Small@2x.png331325871#331325871#0(0"0(0#0#51"/Users/s/Desktop/soccer/Resources/Icon-Small@2x.png8624124736#441"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/s/Desktop/soccer/Resources/Icon-Small@2x.png "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon-Small@2x.png"0#
+
+CCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon.png" Resources/Icon.png
+s331325871.626184
+e331325871.653054
+r1
+xCopyPNGFile
+x/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon.png
+xResources/Icon.png
+lSLF07#2@74"CopyPNGFile "build/Ad Hoc-iphoneos/soccer.app/Icon.png" Resources/Icon.png331325871#331325871#0(0"0(0#0#42"/Users/s/Desktop/soccer/Resources/Icon.png8640834912#423"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/s/Desktop/soccer/Resources/Icon.png "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon.png"0#
+
+CCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon@2x.png" Resources/Icon@2x.png
+s331325871.812691
+e331325871.897162
+r1
+xCopyPNGFile
+x/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon@2x.png
+xResources/Icon@2x.png
+lSLF07#2@80"CopyPNGFile "build/Ad Hoc-iphoneos/soccer.app/Icon@2x.png" Resources/Icon@2x.png331325871#331325871#0(0"0(0#0#45"/Users/s/Desktop/soccer/Resources/Icon@2x.png8640136544#429"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/s/Desktop/soccer/Resources/Icon@2x.png "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Icon@2x.png"0#
+
+CCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/ball.png" Resources/ball.png
+s331325872.007472
+e331325872.036720
+r1
+xCopyPNGFile
+x/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/ball.png
+xResources/ball.png
+lSLF07#2@74"CopyPNGFile "build/Ad Hoc-iphoneos/soccer.app/ball.png" Resources/ball.png331325872#331325872#0(0"0(0#0#42"/Users/s/Desktop/soccer/Resources/ball.png8641690208#423"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/s/Desktop/soccer/Resources/ball.png "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/ball.png"0#
+
+CCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/fps_images.png" Resources/fps_images.png
+s331325871.575043
+e331325871.626094
+r1
+xCopyPNGFile
+x/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/fps_images.png
+xResources/fps_images.png
+lSLF07#2@86"CopyPNGFile "build/Ad Hoc-iphoneos/soccer.app/fps_images.png" Resources/fps_images.png331325871#331325871#0(0"0(0#0#48"/Users/s/Desktop/soccer/Resources/fps_images.png8605945504#435"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/s/Desktop/soccer/Resources/fps_images.png "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/fps_images.png"0#
+
+CCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/grossini_dance_atlas.png" Resources/grossini_dance_atlas.png
+s331325871.653140
+e331325871.812600
+r1
+xCopyPNGFile
+x/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/grossini_dance_atlas.png
+xResources/grossini_dance_atlas.png
+lSLF07#2@106"CopyPNGFile "build/Ad Hoc-iphoneos/soccer.app/grossini_dance_atlas.png" Resources/grossini_dance_atlas.png331325871#331325871#0(0"0(0#0#58"/Users/s/Desktop/soccer/Resources/grossini_dance_atlas.png8639603360#455"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/s/Desktop/soccer/Resources/grossini_dance_atlas.png "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/grossini_dance_atlas.png"0#
+
+CCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/player.png" Resources/player.png
+s331325871.983830
+e331325872.027796
+r1
+xCopyPNGFile
+x/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/player.png
+xResources/player.png
+lSLF07#2@78"CopyPNGFile "build/Ad Hoc-iphoneos/soccer.app/player.png" Resources/player.png331325871#331325872#0(0"0(0#0#44"/Users/s/Desktop/soccer/Resources/player.png8628975776#427"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/s/Desktop/soccer/Resources/player.png "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/player.png"0#
+
+CCopyPNGFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/playerWithPossession.png" Resources/playerWithPossession.png
+s331325872.028710
+e331325872.057104
+r1
+xCopyPNGFile
+x/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/playerWithPossession.png
+xResources/playerWithPossession.png
+lSLF07#2@106"CopyPNGFile "build/Ad Hoc-iphoneos/soccer.app/playerWithPossession.png" Resources/playerWithPossession.png331325872#331325872#0(0"0(0#0#58"/Users/s/Desktop/soccer/Resources/playerWithPossession.png8636894784#455"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/s/Desktop/soccer/Resources/playerWithPossession.png "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/playerWithPossession.png"0#
+
+CCpResource "build/Ad Hoc-iphoneos/soccer.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s331325871.551480
+e331325871.574193
+r1
+xCpResource
+xbuild/Ad Hoc-iphoneos/soccer.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist331325871#331325871#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8603090112#487"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app"0#
+
+CCpResource "build/Ad Hoc-iphoneos/soccer.app/iTunesArtwork" Resources/iTunesArtwork
+s331325871.979336
+e331325872.006504
+r1
+xCpResource
+xbuild/Ad Hoc-iphoneos/soccer.app/iTunesArtwork
+xResources/iTunesArtwork
+lSLF07#2@28"Copy Resources/iTunesArtwork331325871#331325872#0(0"0(0#0#47"/Users/s/Desktop/soccer/Resources/iTunesArtwork8596274816#445"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/s/Desktop/soccer/Resources/iTunesArtwork "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app"0#
+
+CCpResource "build/Ad Hoc-iphoneos/soccer.app/soccer_field.jpg" Resources/soccer_field.jpg
+s331325872.027888
+e331325872.037048
+r1
+xCpResource
+xbuild/Ad Hoc-iphoneos/soccer.app/soccer_field.jpg
+xResources/soccer_field.jpg
+lSLF07#2@31"Copy Resources/soccer_field.jpg331325872#331325872#0(0"0(0#0#50"/Users/s/Desktop/soccer/Resources/soccer_field.jpg8641058624#448"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/s/Desktop/soccer/Resources/soccer_field.jpg "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app"0#
+
+CCreateUniversalBinary "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/soccer" normal "armv6 armv7"
+s331325874.096525
+e331325874.134858
+r1
+xCreateUniversalBinary
+x/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/soccer
+xnormal
+xarmv6 armv7
+lSLF07#2@84"CreateUniversalBinary "build/Ad Hoc-iphoneos/soccer.app/soccer" normal "armv6 armv7"331325874#331325874#0(0"0(0#0#35"/Users/s/Desktop/soccer/armv6 armv78641610624#459"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/soccer" "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/soccer" -output "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/soccer"0#
+
+CGenerateDSYMFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app.dSYM" "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/soccer"
+s331325874.134954
+e331325874.385207
+r1
+xGenerateDSYMFile
+x/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app.dSYM
+x/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/soccer
+lSLF07#2@98"GenerateDSYMFile "build/Ad Hoc-iphoneos/soccer.app.dSYM" "build/Ad Hoc-iphoneos/soccer.app/soccer"331325874#331325874#0(0"0(0#0#63"/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/soccer8638765280#320"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/soccer" -o "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app.dSYM"0#
+
+CLd "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/soccer" normal armv6
+s331325873.144763
+e331325873.555744
+r1
+xLd
+x/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/soccer
+xnormal
+xarmv6
+lSLF07#2@104"Link /Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/soccer331325873#331325873#0(0"0(0#0#0"8630364192#945"    cd /Users/s/Desktop/soccer    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk "-L/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos" "-F/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos" -filelist "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/soccer.LinkFileList" -dead_strip -all_load -ObjC -miphoneos-version-min=3.0 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv6/soccer"0#
+
+CLd "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/soccer" normal armv7
+s331325873.859132
+e331325874.096432
+r1
+xLd
+x/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/soccer
+xnormal
+xarmv7
+lSLF07#2@104"Link /Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/soccer331325873#331325874#0(0"0(0#0#0"8604719872#945"    cd /Users/s/Desktop/soccer    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk "-L/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos" "-F/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos" -filelist "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/soccer.LinkFileList" -dead_strip -all_load -ObjC -miphoneos-version-min=3.0 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/Objects-normal/armv7/soccer"0#
+
+CProcessInfoPlistFile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Info.plist" Resources/Info.plist
+s331325871.552712
+e331325871.557365
+r1
+xProcessInfoPlistFile
+x/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Info.plist
+xResources/Info.plist
+lSLF07#2@28"Process Resources/Info.plist331325871#331325871#0(0"0(0#0#44"/Users/s/Desktop/soccer/Resources/Info.plist8623942304#510"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/ResourceRules.plist" -o "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/Info.plist"0#
+
+CProcessPCH /var/folders/hp/hpeAAv5jEmei2SfT9Ec9TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/soccer_Prefix-bogttzypqztautghpnneznrmcoxn/soccer_Prefix.pch.gch soccer_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+s331325872.058402
+e331325872.700736
+r1
+xProcessPCH
+x/var/folders/hp/hpeAAv5jEmei2SfT9Ec9TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/soccer_Prefix-bogttzypqztautghpnneznrmcoxn/soccer_Prefix.pch.gch
+xsoccer_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@28"Precompile soccer_Prefix.pch331325872#331325872#0(0"0(0#0#41"/Users/s/Desktop/soccer/soccer_Prefix.pch8639692128#1164"    cd /Users/s/Desktop/soccer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/soccer.hmap" -Wall "-F/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos" "-I/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/include" -Ilibs "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/DerivedSources/armv7" "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/DerivedSources" -c /Users/s/Desktop/soccer/soccer_Prefix.pch -o /var/folders/hp/hpeAAv5jEmei2SfT9Ec9TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/soccer_Prefix-bogttzypqztautghpnneznrmcoxn/soccer_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/hp/hpeAAv5jEmei2SfT9Ec9TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/soccer_Prefix-dunxeuojdvqocdcfwxbnmijftvmm/soccer_Prefix.pch.gch soccer_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+s331325872.057226
+e331325872.627998
+r1
+xProcessPCH
+x/var/folders/hp/hpeAAv5jEmei2SfT9Ec9TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/soccer_Prefix-dunxeuojdvqocdcfwxbnmijftvmm/soccer_Prefix.pch.gch
+xsoccer_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@28"Precompile soccer_Prefix.pch331325872#331325872#0(0"0(0#0#41"/Users/s/Desktop/soccer/soccer_Prefix.pch8629410144#1167"    cd /Users/s/Desktop/soccer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/soccer.hmap" -Wall "-F/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos" "-I/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/include" -Ilibs "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/DerivedSources/armv6" "-I/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/DerivedSources" -c /Users/s/Desktop/soccer/soccer_Prefix.pch -o /var/folders/hp/hpeAAv5jEmei2SfT9Ec9TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/soccer_Prefix-dunxeuojdvqocdcfwxbnmijftvmm/soccer_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/s/Library/MobileDevice/Provisioning Profiles/B976294D-5CA9-49D1-B2FD-59E82E2FC9FD.mobileprovision" "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/embedded.mobileprovision"
+s331325874.385302
+e331325874.402765
+r1
+xProcessProductPackaging
+x/Users/s/Library/MobileDevice/Provisioning Profiles/B976294D-5CA9-49D1-B2FD-59E82E2FC9FD.mobileprovision
+x/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/embedded.mobileprovision
+lSLF07#2@190"ProcessProductPackaging "/Users/s/Library/MobileDevice/Provisioning Profiles/B976294D-5CA9-49D1-B2FD-59E82E2FC9FD.mobileprovision" "build/Ad Hoc-iphoneos/soccer.app/embedded.mobileprovision"331325874#331325874#0(0"0(0#0#81"/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/embedded.mobileprovision8624523904#391"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/s/Library/MobileDevice/Provisioning Profiles/B976294D-5CA9-49D1-B2FD-59E82E2FC9FD.mobileprovision" -o "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/soccer.xcent"
+s331325874.406090
+e331325874.407794
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/soccer.xcent
+lSLF07#2@175"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist "build/soccer.build/Ad Hoc-iphoneos/soccer.build/soccer.xcent"331325874#331325874#0(0"0(0#0#84"/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/soccer.xcent8618877344#402"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o "/Users/s/Desktop/soccer/build/soccer.build/Ad Hoc-iphoneos/soccer.build/soccer.xcent"0#
+
+CTouch "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app"
+s331325874.402850
+e331325874.406004
+r1
+xTouch
+x/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app
+lSLF07#2@62"Touch /Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app331325874#331325874#0(0"0(0#0#0"8623671392#236"    cd /Users/s/Desktop/soccer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/s/Desktop/soccer/build/Ad Hoc-iphoneos/soccer.app"0#
+
